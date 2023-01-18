@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="http://localhost/serverside/blog_php/public/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <!-- Iconscout -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <!-- Tabler -->
@@ -77,7 +77,7 @@
           </div>
 
 
-  <script src="http://localhost/serverside/blog_php/public/js/script.js"></script>
+  <script src="./js/script.js"></script>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
