@@ -15,7 +15,8 @@ E' possibile inoltre assegnare PERMESSI BINARI agli utenti e aggiungere nuovi pe
 E' presente una funzione di CERCA PER TITOLO riguardante i post.
 
 Solo l'admin può REGISTRARE NUOVI AUTORI.<br>
-Eseguire il LOGIN come admin@email.it e inserire come password 123456789
+Eseguire il LOGIN come admin@email.it e inserire come password 123456789<br>
+Le password sono salvate nel db con l'HASH.
 
 E' possibile MODIFICARE LA PASSWORD.
 
