@@ -1,11 +1,16 @@
 # php_blog
 
-E' scritto interamente in PHP con OOP, senza l'ausilio di framework.
-Segue il MVC, per cui c'è il modello per le query al db, i template per le viste e i controller.
+E' scritto interamente in PHP con OOP, senza l'ausilio di framework.<br>	
+E' possibile utilizzarlo come modello back-end per creare un blog, cambiando solo il front-end.<br>
+
+Segue il MVC, nella cartella classes c'è un modello (DatabaseTable) per le query al database MYSQL e le Routes con metodi get e post.<br>
+Dentro la cartella classes, c'è la cartella controller, contiene le varie funzioni.<br>
+Nella cartella templates ci sono le varie viste.<br>
+Inoltre è presente nella cartella includes un file blog.sql contenente le tabelle del database già create.<br>
 
 E' possibile effettuare operazioni CRUD ai post, alle categorie e agli autori.
 
-E' possibile inoltre assegnare PERMESSI BINARI agli utenti e aggiungere nuvoi permessi fino a un massimo di 64.
+E' possibile inoltre assegnare PERMESSI BINARI agli utenti e aggiungere nuovi permessi fino a un massimo di 64.
 
 E' presente una funzione di CERCA PER TITOLO riguardante i post.
 
