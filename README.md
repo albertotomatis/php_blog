@@ -1,11 +1,11 @@
 # php_blog
 
-E' scritto interamente in PHP con OOP, senza l'ausilio di framework.<br>	
-E' possibile utilizzarlo come modello back-end per creare un blog, cambiando solo il front-end.<br>
+E' scritto in PHP con OOP, senza l'ausilio di framework.<br>	
+E' possibile utilizzarlo come modello BACK-END per creare un blog, cambiando solo il front-end.<br>
 
-Segue il MVC, nella cartella classes c'è un modello (DatabaseTable) per le query al database MYSQL e le Routes con metodi get e post.<br>
-Dentro la cartella classes, c'è la cartella controller, contiene le varie funzioni.<br>
-Nella cartella templates ci sono le varie viste.<br>
+Segue il MVC, nella cartella classes c'è un MODELLO (DatabaseTable) per le QUERY al database MYSQL e le Routes con metodi get e post.<br>
+Dentro la cartella classes, c'è la cartella CONTROLLER.<br>
+Nella cartella templates ci sono le varie VISTE.<br>
 Inoltre è presente nella cartella includes un file blog.sql contenente le tabelle del database già create.<br>
 
 E' possibile effettuare operazioni CRUD ai post, alle categorie e agli autori.
