@@ -157,7 +157,7 @@ class PostController {
     // mostra tutte le posts dell'utente connesso
     public function postsByAuthor() {
         $posts = $this->postTable->findAll('data DESC');  
-		$author = $this->authentication->getUser();;
+		$author = $this->authentication->getUser();
         return ['template' => '/posts/postsByAuthor.php',
         'variables' => [ 
             'posts' => $posts,
@@ -183,6 +183,7 @@ class PostController {
 
     public function searchByTitle() {
         $input_search = '%' . $_POST["search"] . '%';
+        $author = $this->authentication->getUser();
 
             if(isset($_POST['checkTesto'])) {
                 $posts = $this->postTable->search('testo', $input_search); 
@@ -193,7 +194,21 @@ class PostController {
     
             return ['template' => '/search/result.php',
             'variables' => [ 
-                'posts' => $posts
+                'posts' => $posts,
+                'user' => $author
+            ]];
+            
+    }
+
+    public function searchByAuthor() {
+        $idAutore = $_POST["id"];
+        $posts = $this->postTable->search('authorid', $idAutore);
+        $author = $this->authentication->getUser();
+
+        return ['template' => '/search/result.php',
+            'variables' => [ 
+            'posts' => $posts,
+            'user' => $author
             ]];
             
     }

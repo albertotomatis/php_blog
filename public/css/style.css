@@ -2,18 +2,7 @@
 
 /* custom style */
 
-.input-field i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #1c2e4c;
-    font-size: 23px;
-    transition: all 0.2s ease;
-}
 
-.input-field i.icon {
-    left: 0;
-}
 
 
 

@@ -12,7 +12,7 @@ E' possibile effettuare operazioni CRUD ai post, alle categorie e agli autori.
 
 E' possibile inoltre assegnare PERMESSI BINARI agli utenti e aggiungere nuovi permessi fino a un massimo di 64.
 
-E' presente una funzione di CERCA PER TITOLO riguardante i post.
+E' presente una funzione di CERCA con FILTRO riguardante i post.
 
 Solo l'admin può REGISTRARE NUOVI AUTORI.<br>
 Eseguire il LOGIN come admin@email.it e inserire come password 123456789<br>

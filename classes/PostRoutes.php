@@ -80,6 +80,10 @@ class PostRoutes implements Routes {
 					'controller' => $authorController,
 					'action' => 'list'
 				],
+                'POST' => [
+					'controller' => $postController,
+					'action' => 'searchByAuthor'
+				],
 				'login' => true,
                 // prima assegnare il permesso all'admin, poi scrivere questa riga
                 'permissions' => Author::USER_MANAGE['EDIT_USER_ACCESS']

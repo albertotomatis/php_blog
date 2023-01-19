@@ -18,10 +18,11 @@
         <table class="table table-striped">
             <thead>
                 <tr style="font-weight: 500;">
-                    <th scope="col">Autore</th>
+                    <th scope="col">Nome</th>
 					<th scope="col">Email</th>
                     <th scope="col">Modifica permessi</th>
                     <th scope="col">Elimina autore</th>
+                    <th scope="col">Vedi Post</th>
                 </tr>
             </thead>
             <tbody>
@@ -30,15 +31,20 @@
                         <td style="font-weight: 500;"><?= htmlspecialchars($author->name, ENT_QUOTES, 'UTF-8'); ?></td>
 						<td style="font-weight: 500;"><?= htmlspecialchars($author->email, ENT_QUOTES, 'UTF-8'); ?></td>
                         <td> 
-                            <a class="btn btn-sm btn-orange w-20" href="index.php?route=author/permissions&id=<?=$author->id;?>">Modifica permessi</a>
+                            <a class="btn btn-sm btn-orange w-20" href="index.php?route=author/permissions&id=<?=$author->id;?>">Modifica</a>
                         </td>
                         <td> 
                         <form action="index.php?route=author/delete" method="POST">
                                 <input type="hidden" name="id" value="<?= $author->id ?>">
-                                <input type="submit" value="Elimina autore" class="btn btn-sm btn-red w-20">
+                                <input type="submit" value="Elimina" class="btn btn-sm btn-red w-20">
                             </form>
                         </td>
-
+                        <td> 
+                        <form action="" method="POST">
+                                <input type="hidden" name="id" value="<?= $author->id ?>">
+                                <input type="submit" value="Post" class="btn btn-sm btn-azure w-20">
+                            </form>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>

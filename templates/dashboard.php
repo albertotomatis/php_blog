@@ -12,7 +12,7 @@
                 <li><a class="btn btn-blue w-20" style="margin: 5px;" href="index.php?route=category/list">Categorie</a></li>
             <?php endif; ?>
             <?php if ($user->id && $user->hasPermission(Author::USER_MANAGE['EDIT_USER_ACCESS'])) : ?>
-                <li><a class="btn btn-blue w-20" style="margin: 5px;" href="index.php?route=author/list">Gestisci autori</a></li>
+                <li><a class="btn btn-blue w-20" style="margin: 5px;" href="index.php?route=author/list">Gestisci autori e post</a></li>
             <?php endif; ?>
         </ul>
          </div>

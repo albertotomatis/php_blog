@@ -8,7 +8,6 @@
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <polyline points="15 6 9 12 15 18" />
                         </svg> Torna alla dashboard</a></h2>
-
 <!-- i tuoi post -->
 <h2 style="margin-bottom: 10px; margin-top: 25px;">I tuoi post</h2>
            <div class="row row-cards" style="margin-top: 10px;">
