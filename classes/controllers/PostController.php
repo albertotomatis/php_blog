@@ -182,12 +182,20 @@ class PostController {
     }
 
     public function searchByTitle() {
-            $input_search = '%' . $_POST["search"] . '%';
-            $posts = $this->postTable->search('title', $input_search); 
+        $input_search = '%' . $_POST["search"] . '%';
+
+            if(isset($_POST['checkTesto'])) {
+                $posts = $this->postTable->search('testo', $input_search); 
+            }
+            else {
+                $posts = $this->postTable->search('title', $input_search); 
+            } 
+    
             return ['template' => '/search/result.php',
             'variables' => [ 
                 'posts' => $posts
             ]];
+            
     }
 
 // fine classe    

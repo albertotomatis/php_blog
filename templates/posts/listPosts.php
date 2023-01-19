@@ -4,9 +4,13 @@
        <h2 style="margin-bottom: 10px;">Cerca per titolo</h2>
        <form action="" method="post" style="margin-bottom: 25px;">
          <div class="input-group mb-2 w-20">
-           <input type="text" name="search" class="form-control " placeholder="Search for…">
+           <input type="text" name="search" class="form-control " placeholder="Search for…">                                   
            <input class="btn btn-blue" type="submit">
          </div>
+         <h3>Filtri:</h3>
+            <label class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox"  name="checkTesto" value="">Testo
+            </label>  
        </form>
        <!-- Categorie -->
        <h2 style="margin-bottom: 10px;">Categorie</h2>
