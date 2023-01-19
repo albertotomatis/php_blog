@@ -13,7 +13,7 @@
                                             <div class="card-img-top img-responsive img-responsive-16by9" style="background-image: url(<?= $post->image ?>)"></div>
                                             <div class="card-body">
                                                 <h3 class="card-title"><?= $post->title ?></h3>
-                                                <a href="#" class="btn btn-azure w-100">
+                                                <a href="index.php?route=post/singlepost&id=<?= $post->id; ?>" class="btn btn-azure w-100">
                                                     Leggi di +
                                                 </a>
                                             </div>
