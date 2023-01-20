@@ -1,4 +1,4 @@
-# php_blog
+# BLOG PHP
 
 E' scritto in PHP con OOP, senza l'ausilio di framework.<br>	
 E' possibile utilizzarlo come modello BACK-END per creare un blog, cambiando solo il front-end.<br>

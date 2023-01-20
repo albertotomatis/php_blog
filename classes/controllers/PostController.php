@@ -188,9 +188,14 @@ class PostController {
             if(isset($_POST['checkTesto'])) {
                 $posts = $this->postTable->search('testo', $input_search); 
             }
+            else if(isset($_POST['checkData'])) {
+                $posts = $this->postTable->search('data', $input_search); 
+            }
+
             else {
                 $posts = $this->postTable->search('title', $input_search); 
-            } 
+            }
+       
     
             return ['template' => '/search/result.php',
             'variables' => [ 

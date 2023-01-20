@@ -15,7 +15,7 @@ E' possibile effettuare operazioni <span class="bg-lime">CRUD</span> ai post, al
 
 E' possibile inoltre assegnare <span class="bg-lime">PERMESSI BINARI</span> agli utenti e aggiungere nuovi permessi fino a un massimo di 64.<br><br>
 
-E' presente una funzione di <span class="bg-lime">CERCA con FILTRO</span> riguardante i post.<br><br>
+E' presente una funzione di <span class="bg-lime">CERCA con FILTRI</span> riguardante i post.<br><br>
 
 E' possibile l'<span class="bg-lime">UPLOAD IMMAGINI</span> con relativi controlli.<br><br>
 

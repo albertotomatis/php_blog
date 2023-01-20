@@ -10,7 +10,10 @@
          <h3>Filtri:</h3>
             <label class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox"  name="checkTesto" value="">Testo
-            </label>  
+            </label> 
+            <label class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox"  name="checkData" value="">Data 
+            </label>
        </form>
        <!-- Categorie -->
        <h2 style="margin-bottom: 10px;">Categorie</h2>
